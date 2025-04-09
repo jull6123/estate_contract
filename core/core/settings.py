@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'dbsql.apps.DemooneConfig'
 ]
 
 MIDDLEWARE = [
@@ -73,10 +74,25 @@ WSGI_APPLICATION = 'core.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/4.2/ref/settings/#databases
 
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.sqlite3',
+#         'NAME': BASE_DIR / 'db.sqlite3',
+#     }
+# }
+
+# 数据库连接配置
 DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+    "default": {
+        "ENGINE": "django.db.backends.mysql",
+        "NAME": "estate_contract",
+        "USER": "root",
+        "PASSWORD": "Zyx1540@#",
+        "HOST": "127.0.0.1",
+        # "USER": "cs",
+        # "PASSWORD": "Cs01",
+        # "HOST": "192.168.31.137",
+        "PORT": "3306",
     }
 }
 
