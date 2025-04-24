@@ -1,17 +1,4 @@
 # estate_contract
-
-#1. 项目创建
-##1. 准备工作
-1. github的dns---`ping github.com`得到ip---在hosts文件中补充 
-2. github创建新仓库 estate_contract
-3. 下载至本地
-   1. **D:** --> 切换至D盘
-   2. **git clone http地址**
-   3. pycharm控制台命令行创建django结构：
-      1. ```pip install django ```
-      2. ```django-admin startproject core ```
-      3. pip下载慢：配置清华镜像源```pip install -i https://pypi.tuna.tsinghua.edu.cn/simple datasets```
-    
 ##2. 文件目录作用解析：
 ###项目根目录文件
 - **manage.py**：这是Django项目的命令行工具，用于执行与项目管理和开发相关的任务，如运行服务器、运行测试、创建数据库模式等

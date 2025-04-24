@@ -1,3 +1,20 @@
+#
+# # 1. 项目创建
+# ##1. 准备工作
+# 1. github的dn s ---`ping github.co
+# m`得到i p ---在hosts文件中补充
+# 2. github创建新仓库 estate_contract
+# 3. 下载至本地
+# 1. * *D :** --> 切换至D盘
+# 2. * *git clone http地 址**
+# 3. pycharm控制台命令行创建django结构：
+# 1. ```pip install django ```
+# 2. ```djang o -admin startproject core ```
+# 3. pip下载慢：配置清华镜像
+# 源```pip install -i
+# https: // pypi.tuna.tsinghua.edu.cn / simple
+# datasets
+# ```
 
 # 地方级-117
 # {'Id': 'f214fd21-8858-4ce7-8491-00fd0bf7a191', 'Title': '南京市房屋租赁合同（试行）（居间服务版）', 'Brief': '甲方（出租人）向乙方（承租人）出租房屋，丙方（经纪机构）提供中介服务，约定租金、居间服务费用等内容。', 'Tags': None, 'Department': '南京市工商局（市场监管局）南京市住房保障和房产局', 'IsPublished': True, 'ModifiedOn': '2022-05-13T09:34:53.003', 'PublishedOn': '2017', 'IsLocal': True, 'Region': '江苏', 'Type': 3, 'IsRecent': False}
